@@ -1,0 +1,328 @@
+//detail
+.product-detail {
+  background-color: #F2F1F6;
+
+  &_top {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 16px 0px;
+  }
+
+  &_bottom {
+    background-color: #ffffff;
+    padding: 16px;
+  }
+}
+
+.detail {
+  &_name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  &_price {
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 24px 0px;
+  }
+
+  &_count {
+    margin: 32px 0px;
+
+    label {
+      margin-right: 16px;
+    }
+
+    input {
+      width: 50px;
+    }
+  }
+
+  &_cart {
+    button {
+      background-color: var(--second-color);
+      color: #ffffff;
+      padding: 8px 16px;
+      font-size: 16px;
+      border-radius: 6px;
+      &:focus, &:hover{
+        background-color: #52e3a0;
+      }
+    }
+
+    i {
+      padding-right: 8px;
+    }
+  }
+
+  &_reviews {
+    padding-left: 8px;
+  }
+
+  &_infor {
+    h6 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #F2F1F6;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+
+  &_des {
+    padding: 16px 0px;
+    font-size: 16px;
+  }
+
+  &_ingredient {
+    margin-top: 24px;
+  }
+
+  &_use {
+    li {
+      list-style: disc;
+      margin-left: 16px;
+    }
+  }
+}
+
+.tab_sub_info {
+  ul {
+    display: flex;
+
+    li {
+      padding-right: 40px;
+      font-size: 16px;
+
+      a:hover {
+        text-decoration: none;
+        color: var(--second-color);
+      }
+    }
+  }
+}
+
+.success-modal {
+  background-color: #fff;
+  color: #000;
+  padding: 16px;
+  width: 300px;
+  width: 400px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(50%);
+  border: 1px solid #49D83F;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.pagination{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  >.active{
+    outline: none;
+    >span{
+      background-color: var(--primary-color) !important;
+      border-color: var(--primary-color)!important;
+    }
+  }
+  > li > a:focus{
+    outline: none;
+  }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+$cornflower-blue: #6078EA;
+$tundora: #4B4848;
+$snappy:  cubic-bezier(0.694,  0.048, 0.335, 1.000);
+
+
+::selection {
+  background: $cornflower-blue;
+  color: white;
+  text-shadow: none;
+}
+
+::-webkit-selection{
+  background: $cornflower-blue;
+  color: white;
+  text-shadow: none;
+}
+
+.form-search{
+  font-family: 'Montserrat', 'Helevtica', sans-serif;
+  position: relative;
+  color: $tundora;
+  transition: background-color 1.25s ease-in-out;
+  margin: 40px;
+}
+
+.field-container {
+  position: relative;
+  padding: 0;
+  border: 0;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  // margin-right: 77px;
+}
+
+// .icons-container {
+//   position: absolute;
+//   top: 5px;
+//   right: 0px;
+//   width: 35px;
+//   height: 35px;
+//   overflow: hidden;
+// }
+
+// .icon-close {
+//   position: absolute;
+//   top: 2px;
+//   left: 2px;
+//   width: 75%;
+//   height: 75%;
+//   opacity: 0;
+//   cursor: pointer;
+//   transform: translateX(-200%);
+//   border-radius: 50%;
+//   transition: opacity 0.25s ease, transform 0.43s $snappy;
+//   &:before {
+//     content: "";
+//     border-radius: 50%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0;
+//     border: 2px solid transparent;
+//     border-top-color: $cornflower-blue;
+//     border-left-color: $cornflower-blue;
+//     border-bottom-color: $cornflower-blue;
+//     transition: opacity 0.2s ease;
+//   }
+//   .x-up {
+//     position: relative;
+//     width: 100%;
+//     height: 50%;
+//     &:before {
+//       content: "";
+//       position: absolute;
+//       bottom: 2px;
+//       left: 3px;
+//       width: 50%;
+//       height: 2px;
+//       background-color: $cornflower-blue;
+//       transform: rotate(45deg);
+//     }
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       bottom: 2px;
+//       right: 0px;
+//       width: 50%;
+//       height: 2px;
+//       background-color: $cornflower-blue;
+//       transform: rotate(-45deg);
+//     }
+//   }
+//   .x-down {
+//     position: relative;
+//     width: 100%;
+//     height: 50%;
+//     &:before {
+//       content: "";
+//       position: absolute;
+//       top: 5px;
+//       left: 4px;
+//       width: 50%;
+//       height: 2px;
+//       background-color: $cornflower-blue;
+//       transform: rotate(-45deg);
+//     }
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       top: 5px;
+//       right: 1px;
+//       width: 50%;
+//       height: 2px;
+//       background-color: $cornflower-blue;
+//       transform: rotate(45deg);
+//     }
+//   }
+
+// }
+
+// .icon-search {
+//   position: relative;
+//   top: 5px;
+//   left: 8px;
+//   width: 50%;
+//   height: 50%;
+//   opacity: 1;
+//   border-radius: 50%;
+//   border: 3px solid mix($cornflower-blue, white, 35%);
+//   transition: opacity 0.25s ease, transform 0.43s $snappy;
+//   &:after {
+//     content: "";
+//     position: absolute;
+//     bottom: -9px;
+//     right: -2px;
+//     width: 4px;
+//     border-radius: 3px;
+//     transform: rotate(-45deg);
+//     height: 10px;
+//     background-color: mix($cornflower-blue, white, 35%);
+//   }
+// }
+
+.field {
+  border: 0;
+  width: 330px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 8px 15px rgba($tundora, 0.1);
+  transition: all 0.4s ease;
+  &:focus {
+    outline: none;
+    box-shadow: 0px 9px 20px rgba($tundora, 0.3);
+    + .icons-container {
+      .icon-close {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      .icon-search {
+        opacity: 0;
+        transform: translateX(200%);
+      }
+    }
+  }
+}

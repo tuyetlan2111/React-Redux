@@ -1,0 +1,60 @@
+.login, .signUp{
+  margin: auto;
+  background: linear-gradient(-135deg,#c850c0,#4158d0);
+  height: 100vh;
+  padding-top: 100px;
+  form{
+    max-width: 350px;
+    margin: 40px auto;
+    div{
+      margin: 0px auto 40px;
+      margin-bottom: 24px;
+      label{
+        width: 150px;
+      }
+    }
+  }
+
+  &_btn{
+    width: 100%;
+    background-color: var(--second-color);
+    color: #ffffff;
+    padding: 8px 0px;
+    font-size: 18px;
+    border-radius: 6px;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+  &_sign{
+    margin-top: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    a{
+      color: #59e9a6;
+      padding-left: 8px;
+    }
+  }
+}
+
+#login_wrong{
+  padding: 24px 8px;
+}
+
+.forget-pass{
+  text-align: right;
+  a{
+    color: var(--second-color);
+  }
+}
+
+.success{
+  position: absolute;
+  top: 3%;
+  left: 35%;
+  background: #85c6b5;
+  color: #ffffff;
+  padding: 11px 16px;
+  font-size: 14px;
+}

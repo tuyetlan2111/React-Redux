@@ -1,0 +1,299 @@
+{
+  "admin": [
+    {
+      "id": "admin1",
+      "name": "Tuyet Lan",
+      "password": "23452577"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "phone": "1-770-736-803",
+      "password": "12345678",
+      "orders":[]
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593",
+      "password": "12345678"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "phone": "14631234447",
+      "password": "12345678"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "phone": "4931709623",
+      "password": "12345678"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "phone": "095.412.8900",
+      "password": "12345678"
+    },
+    {
+      "id": 6,
+      "name": "Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "147.793.584",
+      "password": "12345678"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "210.067.6132",
+      "password": "12345678"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943",
+      "password": "12345678"
+    },
+    {
+      "id": 9,
+      "name": "Vo Thi Tuyet Lan",
+      "email": "tuyetlan2111@gmail.com",
+      "phone": "444444",
+      "password": "2354647777"
+    }
+  ],
+  "listname": [
+    {
+      "id": 1,
+      "name": "Tất cả",
+      "type": "all"
+    },
+    {
+      "id": 2,
+      "name": "Tẩy Trang",
+      "type": "cleansing"
+    },
+    {
+      "id": 3,
+      "name": "Sửa rửa mặt",
+      "type": "facewash"
+    },
+    {
+      "id": 4,
+      "name": "Mặt Nạ",
+      "type": "mask"
+    },
+    {
+      "id": 5,
+      "name": "Chăm sóc môi",
+      "type": "lip care"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang1.jpg",
+      "title": "Nước Tẩy Trang Derladie Ngừa Mụn, Làm Sạch Da 500ml Cleansing Water Witch Hazel",
+      "price": 165000,
+      "descripe": "Nước Tẩy Trang Derladie Chiết Xuất Cây Phỉ là sản phẩm tẩy trang làm sạch da đến từ thương hiệu Derladie nổi tiếng với các dòng sản phẩm chiết xuất cây Phỉ giúp làm sạch lớp trang điểm nhanh chóng, loại bỏ dầu thừa và bụi bẩn, đồng thời kháng viêm và hỗ trợ se khít lỗ chân lông, mang lại cho bạn làn da sạch thoáng mịn màng.",
+      "infor": {
+        "barcode": 8809713360140,
+        "brand": "Derladie",
+        "country": "Hàn Quốc",
+        "skinType": "Mọi loại da",
+        "sex": "Tất cả",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Water, Glycerin, PEG-60 Hydrogenated Castor Oil, Hamamelis Virginiana (Witch Hazel) Water, Disodium Cocoamphodiacetate, 1,2-Hexanediol, Cocamidopropyl Betaine, Sodium Laureth Sulfate, Sodium Chloride, Camellia Sinensis Leaf Extract, Bambusa Vulgaris Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Centella Asiatica Extract, Salvia Officinalis (Sage) Leaf Extract, Portulaca Oleracea Extract, Nelumbo Nucifera Flower Extract, Olea Europaea (Olive) Fruit Extract, Melaleuca Alternifolia (Tea Tree) Extract, Tremella Fuciformis (Mushroom) Extract, Salix Alba (Willow) Bark Extract, Trehalose, Coco-Betaine, Allantoin, Citric Acid, Sodium Citrate, Ethylhexylglycerin, Disodium EDTA, Fragrance, Hexylene Glycol, Caprylyl Glycol, Butylene Glycol.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 2,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang2.jpg",
+      "title": "Nước Tẩy Trang Derladie Ngừa Mụn, Làm Sạch Da 500ml Cleansing Water Witch Hazel",
+      "price": 165000,
+      "descripe": "Nước Tẩy Trang Derladie Chiết Xuất Cây Phỉ là sản phẩm tẩy trang làm sạch da đến từ thương hiệu Derladie nổi tiếng với các dòng sản phẩm chiết xuất cây Phỉ giúp làm sạch lớp trang điểm nhanh chóng, loại bỏ dầu thừa và bụi bẩn, đồng thời kháng viêm và hỗ trợ se khít lỗ chân lông, mang lại cho bạn làn da sạch thoáng mịn màng.",
+      "infor": {
+        "barcode": 8809713360140,
+        "brand": "Derladie",
+        "country": "Hàn Quốc",
+        "skinType": "Mọi loại da",
+        "sex": "Tất cả",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Water, Glycerin, PEG-60 Hydrogenated Castor Oil, Hamamelis Virginiana (Witch Hazel) Water, Disodium Cocoamphodiacetate, 1,2-Hexanediol, Cocamidopropyl Betaine, Sodium Laureth Sulfate, Sodium Chloride, Camellia Sinensis Leaf Extract, Bambusa Vulgaris Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Centella Asiatica Extract, Salvia Officinalis (Sage) Leaf Extract, Portulaca Oleracea Extract, Nelumbo Nucifera Flower Extract, Olea Europaea (Olive) Fruit Extract, Melaleuca Alternifolia (Tea Tree) Extract, Tremella Fuciformis (Mushroom) Extract, Salix Alba (Willow) Bark Extract, Trehalose, Coco-Betaine, Allantoin, Citric Acid, Sodium Citrate, Ethylhexylglycerin, Disodium EDTA, Fragrance, Hexylene Glycol, Caprylyl Glycol, Butylene Glycol.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 3,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang3.jpg",
+      "title": "Nước Tẩy Trang Bioderma Dành Cho Da Nhạy Cảm 100ml Sensibio H2O",
+      "price": 154000,
+      "descripe": "Nước Tẩy Trang Dành Cho Da Nhạy Cảm Bioderma Sensibio H2O là sản phẩm nước tẩy trang công nghệ Micellar đầu tiên trên thế giới, do thương hiệu dược mỹ phẩm Bioderma nổi tiếng của Pháp phát minh. Dung dịch giúp làm sạch sâu da và loại bỏ lớp trang điểm nhanh chóng mà không cần rửa lại bằng nước. Công thức dịu nhẹ, không kích ứng, không gây khô căng da, đặc biệt phù hợp với làn da nhạy cảm.",
+      "infor": {
+        "barcode": 3401395376706,
+        "brand": "BIODERMA",
+        "country": "Pháp",
+        "skinType": "Mọi loại da",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Aqua/Water/Eau, Peg-6 Caprylic/Capric Glycerides, Fructooligosaccharides, Mannitol, Xylitol, Rhamnose, Cucumis Sativus (Cucumber) Fruit Extract, Propylene Glycol, Cetrimonium Bromide, Disodium Edta. [Bi 446]",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 4,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang4.jpg",
+      "title": "Nước Tẩy Trang Bioderma Dành Cho Da Dầu & Hỗn Hợp 100ml Sébium H2O",
+      "price": 164000,
+      "descripe": "Nước Tẩy Trang Bioderma Sébium H2O là sản phẩm tẩy trang dành cho da dầu, da hỗn hợp đến từ thương hiệu dược mỹ phẩm Bioderma, được ứng dụng công nghệ Micellar đình đám giúp loại bỏ lớp trang điểm cùng bụi bẩn và dầu thừa trên da hiệu quả mà không gây khô căng hay nhờn rít, tạo cảm giác thông thoáng cho da sau một ngày dài mệt mỏi.",
+      "infor": {
+        "barcode": 3401395376935,
+        "brand": "BIODERMA",
+        "country": "Pháp",
+        "skinType": "Mọi loại da",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Water (Aqua), Peg-6 Caprylic/Capric Glycerides, Sodium Citrate , Zinc Gluconate, Copper Sulfate, Ginkgo Biloba Extract – Chiết Xuất Lá Bạch Quả, Mannitol, Xylitol, Rhamnose, Fructooligosaccharides, Propylene Glycol, Citric Acid, Disodium Edta, Cetrimonium Bromide, Fragrance (Parfum).",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 5,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang5.jpg",
+      "title": "Dầu Tẩy Trang Cocoon Chiết Xuất Hoa Hồng 140ml Rose Cleansing Oil",
+      "price": 162000,
+      "descripe": "Dầu Tẩy Trang Cocoon Chiết Xuất Hoa Hồng Rose Cleansing Oil 140ml là dòng dầu tẩy trang từ thương hiệu mỹ phẩm Cocoon của Việt Nam, với công thức dầu hoa hồng và vitamin E chọn lọc giúp làm sạch sâu mọi lớp trang điểm, bụi bẩn và dầu thừa, duy trì độ ẩm trên da mà không để lại cảm giác nhờn rít khó chịu.",
+      "infor": {
+        "barcode": 8936104220636,
+        "brand": "Cocoon",
+        "country": "Việt Nam",
+        "skinType": "Mọi loại da",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Glycerin, Aqua/Water, Peg-7 Glyceryl Cocoate, C15-19 Alkane, Glycereth-26, Polysorbate 20, Rosa Damascena Flower Oil, Tocopheryl Acetate, Caramel",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 6,
+      "type": "cleansing",
+      "image": "assets/images/taytrang/taytrang6.jpg",
+      "title": "Nước Tẩy Trang B.O.M Từ 8 Loại Trà 500ml Eight Tea Cleansing Water",
+      "price": 208000,
+      "descripe": "DNước Tẩy Trang B.O.M Từ 8 Loại Trà từ thương hiệu B.O.M giúp làm sạch bụi bẩn, bã nhờn, nhẹ nhàng lấy đi các lớp trang điểm có độ bám dính cao như kem nền, kem che khuyết điểm, son...giúp bạn ngăn ngừa những tổn thương đối với da do việc không tẩy trang hoặc tẩy trang không sạch gây ra.",
+      "infor": {
+        "barcode": 8809567922402,
+        "brand": "B-O-M",
+        "country": "Hàn Quốc",
+        "skinType": "Mọi loại da",
+        "sex": "Tất cả",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Water, Bergamot Fruit, Oil, Camellia Sinensis Leaf Extract, Aspalathus Linearis Extract, Uuron-Cha Ekisu, Ilex Paraguariensis Leaf Extract, Chrysanthemum Morifolium Flower Extract, Coix Lacryma-Jobi Ma-Yuen Seed Extract",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 7,
+      "type": "facewash",
+      "image": "assets/images/facewash/facewash1.jpg",
+      "title": "Sữa Rửa Mặt Simple Giúp Da Sạch Thoáng 150ml Kind To Skin Refreshing Facial Wash Gel",
+      "price": 49000,
+      "descripe": "Sữa Rửa Mặt Simple Refreshing Facial Wash là sản phẩm sữa rửa mặt dạng gel dành cho mọi loại da nổi tiếng của thương hiệu mỹ phẩm Simple. Với công thức dịu nhẹ không chứa xà phòng cùng thành phần Pro-Vitamin B5 và Vitamin E, sản phẩm giúp làm sạch da hiệu quả, cuốn đi chất nhờn, bụi bẩn và các tạp chất khác mà không gây kích ứng, cho da mềm mịn, đồng thời mang lại cảm giác tươi mát và sạch thoáng cho da.",
+      "infor": {
+        "barcode": 5011451103863,
+        "brand": "SIMPLE",
+        "country": "Anh",
+        "skinType": "Mọi loại da",
+        "sex": "Tất cả",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Aqua, Cocamidopropyl Betaine, Propylene Glycol, Hydroxypropyl Methylcellulose, Panthenol, Disodium EDTA, Hydroxypropyl Cyclodextrin, Iodopropynyl Butylcarbamate, Pantolactone, Phenoxyethanol, Sodium Benzoate, Sodium Chloride, Sodium Hydroxide, Tocopheryl Acetate.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 8,
+      "type": "facewash",
+      "image": "assets/images/facewash/facewash2.jpg",
+      "title": "Bộ Đôi La Roche-Posay Chống Nắng Kiểm Soát Dầu & Làm Sạch Da Anthelios Dry Touch SPF 50+ 50ml & Effaclar Purifying Foaming Gel 50ml",
+      "price": 459000,
+      "descripe": "Kem Chống Nắng La Roche-Posay Anthelios Anti-Shine Gel-Cream Dry Touch Finish Mattifying Effect SPF50+ đến từ thương hiệu dược mỹ phẩm La Roche-Posay là sản phẩm kem chống nắng dành cho làn da dầu mụn, sở hữu công nghệ cải tiến XL-Protect cùng kết cấu kem gel dịu nhẹ & không nhờn rít, giúp ngăn ngừa tia UVA/UVB + tia hồng ngoại + tác hại từ ô nhiễm, bảo vệ toàn diện cho làn da luôn khỏe mạnh. ",
+      "infor": {
+        "barcode": "",
+        "brand": "LA ROCHE-POSAY",
+        "country": "Pháp",
+        "skinType": "Da dầu, lỗ chân lông to",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Aqua / Water, Homosalate, Ethylhexyl Salicylate, Silica, Ethylhexyl Triazone, Styrene/Acrylates Copolymer, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Drometrizole Trisiloxane, Butyl Methoxydibenzoylmethane, Aluminum Starch Octenylsuccinate, Octocrylene, C12-15 Alkyl Benzoate, Glycerin, Pentylene Glycol, Potassium Cetyl, Phosphate, Dimethicone, Perlite, Propylene Glycol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Aluminum Hydroxide, Caprylyl Glycol, Disodium Edta, Inulin Lauryl, Carbamate, Isopropyl Lauroyl Sarcosinate, Peg-8 Laurate, Phenoxyethanol, Stearic Acid, Stearyl Alcohol, Terephthalylidene Dicamphor Sulfonic Acid, Titanium Dioxide [Nano] / Titanium Dioxide, Tocopherol, Triethanolamine, Xanthan Gum, Zinc Gluconate.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 9,
+      "type": "facewash",
+      "image": "assets/images/facewash/facewash3.jpg",
+      "title": "Sữa Rửa Mặt Naruko Dạng Bùn Tràm Trà 120ml Tea Tree Purifying Clay Mask & Cleanser In 1",
+      "price": 164000,
+      "descripe": "Sữa Rửa Mặt NARUKO 120ml là dòng sản phẩm đến từ thương hiệu mỹ phẩm thiên nhiên NARUKO nổi tiếng của Đài Loan, giúp làm sạch sâu lỗ chân lông và loại bỏ các tạp chất tồn đọng trên da, đồng thời chăm sóc da mặt dịu nhẹ cùng các chiết xuất tự nhiên như Tràm Trà, Hoa Hồng Nhung Rừng, Bạch Ngọc Lan, Ý Dĩ Nhân Đỏ",
+      "infor": {
+        "barcode": 4711542263926,
+        "brand": "NARUKO",
+        "country": "Đài Loan",
+        "skinType": "Da dầu",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Purified Water (Aqua), Myristic Acid, Glycerin, Lauric Acid, Propylene Glycol, Potassium Hydroxide, Decyl Glucoside, Sodium Cocoyl Glutamate, Sodium Lauroyl Oat Amino Acids, Glycol Distearate, Phenoxyethanol, Essential Oils of Rose (Rosa Damascena), Rosewood (Aniba Rosaeodora), Palmarosa (Cymbopogon Martini), Petitgrain (Citrus Aurantium Var. Amara), Salix Alba (Willow) Bark Extract, Rosa Damascena Flower Water, Rosa Gallica Flower Extract, Rosa Centifolia Flower Extract, Glycol Stearate, Kalanchoe Spathulata Leaf Extract, Glycyrrhiza Glabra Root Extract, Scutellaria Alpina Flower/ Leaf/Stem Extract, Peucedanum Ostruthium Leaf Extract, Ginkgo Biloba Leaf Extract, Artemisia Umbelliformis Extract, Leontopodium Alpinum Extract, Epilobium Fleischeri Extract, Calendula Officinalis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, Camellia Sinensis Leaf Extract, Snow Fungus (Tremella Fuciformis) Extract, Allantoin, Polyquaternium-7, Xylitylglucoside, Anhydroxylitol, Xylitol, Hydrolyzed Hyaluronic Acid Phytoferulin® is an exclusively patented complex formulated with 11 different plant extracts.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    },
+    {
+      "id": 10,
+      "type": "facewash",
+      "image": "assets/images/facewash/facewash4.jpg",
+      "title": "Sữa Rửa Mặt Isis Pharma Giảm Nhờn Và Ngăn Ngừa Mụn 150ml Teen Derm Gel",
+      "price": 277000,
+      "descripe": "Sữa Rửa Mặt Giảm Nhờn Và Ngăn Ngừa Mụn ISIS Pharma Teen Derm Gel từ thương hiệu ISIS PHARMA sẽ giúp bạn hạn chế vấn đề mang tên dầu nhờn. Sản phẩm có tác dụng loại bỏ bụi bẩn, bã nhờn sâu trong lỗ chân lông, làm giảm sự bài tiết bã nhờn giúp bạn nói lời vĩnh biệt dầu nhờn, trả lại làn da mịn màng.",
+      "infor": {
+        "barcode": 3031500311423,
+        "brand": "ISIS PHARMA",
+        "country": "Pháp",
+        "skinType": "Da dầu, lỗ chân lông to",
+        "sex": "",
+        "characteristic": "Ngày Và Đêm"
+      },
+      "qty": 0,
+      "Ingredient": "Aqua (Water), Sodium Cocoamphoacetate, Peg-40 Glyceryl Cocoate, Peg-200 Hydrogenated Glyceryl Palmate, Sodium Coceth Sulfate, Triethanolamine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Salicylic Acid, Silica, Ppg-26-Buteth-26, Peg-40 Hydrogenated Castor Oil, Chondrus Crispus (Carrageenan), Peg-7 Glyceryl Cocoate, Polyethylene, Phenoxyethanol, Hydroxypropyl Guar, Parfum (Fragrance), Chlorphenesin, Sodium Lauroyl Oat Amino Acids, Disodium Edta,Methylparaben, Copper Pca, Zinc Pca, Xylitylglucoside, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycinnamate, Anhydroxylitol, Sodium Chloride, Butylparaben, Ethylparaben, Ethylhexyl Salicylate, Ci 42090 / Blue 1 Lake, Isobutylparaben, Propylparaben, Butyl Avocadate, Xylitol, Dipropylene Glycol, Boswellia Serrata Resin Extract.",
+      "use": "<ul><li>Làm ướt vùng da mặt</li><li>Lấy 1 lượng gel sữa rửa mặt, thoa tròn và massage nhẹ nhàng từ 1-3 phút</li><li>Rửa sạch với nước.</li></ul>"
+    }
+  ],
+  "order":[
+    {
+      "userId": 1
+    }
+  ]
+}

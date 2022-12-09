@@ -1,0 +1,55 @@
+.scrool{
+  position: relative;
+  margin: 100px 100px;
+  display: flex;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  float: left;
+  width: 30%;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  clear: both;
+}
+.navbar-nav {
+  float: none;
+  margin: 0;
+}
+.navbar-nav>li {
+  float: none;
+  display: block;
+}
+.navbar-nav>li>a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  margin-top: 0;
+  overflow: auto;
+  width: 66%;
+  float: right;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.loadChart {
+  text-align: center;
+  height:1000px;
+  margin-top:100px;
+}
+
+.content{
+  text-align: center;
+}
+.content p::first-letter {
+  text-transform:capitalize;
+}

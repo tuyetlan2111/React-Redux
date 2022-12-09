@@ -1,0 +1,36 @@
+.footer {
+  background-image: url('../images/footer-bg.webp');
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  ul {
+    li {
+      margin-bottom: 16px;
+      a {
+        font-size: 16px;
+        padding: 0px 16px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+
+  &_icon{
+    i{
+      color: var(--second-color);
+      font-size: 30px;
+      margin-right: 16px;
+      cursor: pointer;
+    }
+  }
+
+  &_nav{
+    display: flex;
+    justify-content: center;
+  }
+}

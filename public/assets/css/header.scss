@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  position: sticky;
+  position: sticky;
+  top: 0;
+  z-index: 333;
+  background-color: #fff;
+
+  &_wraper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    height: 68px;
+    box-shadow: 0px 15px 10px -15px #111;
+  }
+
+  li {
+    a {
+      font-weight: 500;
+      margin-right: 30px;
+      text-transform: capitalize;
+      font-size: 16px;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      font-family: Josefin Sans, sans-serif;
+
+      &:hover {
+        color: var(--primary-color);
+        @media screen and (max-width: 768px){
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &_item{
+    margin-right: 40px;
+  }
+
+  &_search {
+    display: flex;
+
+    input {
+      padding: 8px 16px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 1px solid #ccc;
+      color: #333;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 2px 16px;
+    }
+  }
+
+  &_login {
+    display: flex;
+
+    a {
+      font-size: 14px;
+      color: var(--primary-color) !important;
+      margin-right: 16px;
+      cursor: pointer;
+    }
+
+    i {
+      font-size: 20px;
+      margin-right: 8px;
+      color: var(--second-color);
+    }
+  }
+
+  &_cart {
+    margin-right: 32px;
+    i {
+      font-size: 30px;
+      color: var(--second-color);
+      margin-right: 8px;
+    }
+
+    span {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px) {
+      margin-right: 40px;
+    }
+  }
+}
+
+
+.logo {
+  margin: 0px;
+  max-width: 140px;
+}
+
+.categoryList {
+  display: flex;
+  padding-bottom: 16px;
+  margin: auto;
+
+  li {
+    border: 1px solid #ccc;
+    padding: 4px 20px;
+    margin: 0px 8px;
+
+    &:first-of-type {
+      margin-left: 0px;
+    }
+  }
+}
+
+
+a.userName {
+  color: #000000 !important;
+}
+
+
+.nav-menu {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+    background-color: #19b698;
+  }
+}
+
+/* menu button */
+.menuBtn {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 101;
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+
+  >span {
+    background-color: #19b698;
+    border-radius: 1px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -1px 0 0 -15px;
+    transition: height 100ms;
+
+    &:after,
+    &:before {
+      content: '';
+      background-color: #19b698;
+      border-radius: 1px;
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      margin-left: -15px;
+      transition: all 200ms;
+    }
+
+    &:after {
+      top: -7px;
+    }
+
+    &:before {
+      bottom: -7px;
+    }
+  }
+
+  &.act {
+    >span {
+      height: 0;
+
+      &:after,
+      &:before {
+        background-color: #008877;
+        top: 1px;
+      }
+
+      &:after {
+        transform: rotate(45deg);
+      }
+
+      &:before {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+/* main menu block */
+.mainMenu {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: table;
+  text-align: center;
+  // transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  @media screen and (max-width: 768px) {
+    // opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 50vh;
+  }
+
+  &.act {
+    opacity: 1;
+    transform: scale(1);
+    @media screen and (max-width: 768px){
+      background-color: #19b698;
+    }
+    ul li {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  ul {
+    display: flex;
+    margin-bottom: 0px;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
+
+  li {
+    padding: 8px 0;
+    transition: all 400ms 510ms;
+    @media screen and (max-width: 768px) {
+      opacity: 0;
+      &:nth-child(odd) {
+        transform: translateX(30%);
+      }
+      &:nth-child(even) {
+        transform: translateX(-30%);
+      }
+      &:last-child {
+        transform: none;
+      }
+    }
+  }
+
+  a {
+    // color: #fff;
+    display: inline-block;
+    font-size: 18px;
+
+    &.suBtn {
+      color: #fff;
+    }
+  }
+
+}

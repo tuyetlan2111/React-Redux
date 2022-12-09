@@ -1,0 +1,141 @@
+.cart {
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 64px;
+  display: block;
+  padding: 0px 5%;
+
+  img{
+    width: 100px;
+  }
+
+  table{
+    text-align: left;
+    width: 100%;
+  }
+
+  td{
+    padding: 24px 0px;
+  }
+
+  .hr{
+    padding-bottom: 24px;
+  }
+
+  &_bottom{
+    justify-content: space-between;
+    margin-top: 16px;
+    span{
+      font-weight: bold;
+    }
+  }
+
+  &_price{
+    text-align: right;
+    color: #55595c;
+    font-size: 15px;
+  }
+
+  &-count{
+    align-items: center;
+    width: 50px;
+    button {
+      border-radius: 6px;
+      width: 40px;
+      color: #ffffff;
+      font-size: 30px;
+      height: 40px;
+      &:first-of-type {
+        background-color: red;
+        margin-right: 16px;
+      }
+
+      &:last-of-type {
+        background-color: green;
+        margin-left: 16px;
+      }
+    }
+    span{
+      font-size: 16px;
+    }
+  }
+
+  &_checkout{
+    justify-content: space-between;
+    align-items: center;
+    margin-top:24px
+  }
+
+  .btncart-remove{
+    width: 24px;
+    height: 24px;
+  }
+
+  &__qty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: 35px;
+      height: 35px;
+      font-size: 25px;
+      background-color: burlywood;
+      color: honeydew;
+    }
+    input{
+      height: 35px;
+      border: 1px solid #ccc;
+      border-left: none;
+      border-right: none;
+      max-width: 45px;
+      text-align: center;
+    }
+  }
+}
+
+.total-item{
+  padding: 24px 0px;
+  > div{
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  *{
+    color: #55595c;
+    font-size: 18px;
+  }
+}
+
+.cart-btn{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.checkout-btn{
+  background-color: rgb(18, 15, 15);
+  margin-right: 64px;
+}
+
+.empty-cart {
+  background-color: rgb(174, 82, 82);
+}
+.product-name{
+  font-size: 18px;
+}
+
+.prev-shop{
+  a{
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem;
+    text-decoration: none;
+    img{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+  }
+}
